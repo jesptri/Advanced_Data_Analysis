@@ -1,4 +1,4 @@
-# MS4215
+# MS4215 - Advanced Data Analysis
 
 I followed this module during my Erasmus semester (Sep 2024 - Dec 2024) at the University of Limerick.
 
