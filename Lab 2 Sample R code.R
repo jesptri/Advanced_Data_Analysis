@@ -1,5 +1,8 @@
 #Lab 2:   Possible R code for Q1 parts (i) – (iv)
 
+library(readxl)
+
+lab_2 <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/lab 2.xlsx")
 
 # read the data into vectors 
 x1<-lab_2$x1
@@ -24,7 +27,7 @@ y_hat <- X%*%b
 res_y <- y - y_hat
 err_sq <- t(res_y)%*%res_y
 sigma_hat <- err_sq/(length(y)-4)
-var_cov <-sigma_hat[1,1]*inv(TX%*%X)
+var_cov <-sigma_hat[1,1]*solve(TX%*%X)
 var_cov
 
 

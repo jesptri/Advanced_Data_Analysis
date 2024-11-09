@@ -1,3 +1,10 @@
+library(readxl)
+library(car)
+
+NoiseFilter <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/NoiseFilter.xlsx")
+Books <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/Books.xlsx")
+Jigsaw <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/Jigsaw.xlsx")
+
 
 # A. Mediation 
 summary(lm(read ~ enjoy,data = Books))  #Estimates total effect of X (enjoy) on Y (reading)

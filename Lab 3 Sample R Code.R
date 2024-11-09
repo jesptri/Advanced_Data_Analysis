@@ -1,3 +1,7 @@
+library(readxl)
+
+Lab3Emp <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/Lab3Emp.xlsx")
+
 Lab3Emp$sex.f <- factor(Lab3Emp$Sex, levels = c("1", "2"), 
                            labels = c("female", "male"))
 

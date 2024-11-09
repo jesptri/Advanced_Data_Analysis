@@ -1,7 +1,7 @@
 library(readxl)
 library(car)
 
-Lab_4 <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced data analysis/data/lab 4.xlsx")
+Lab_4 <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/lab 4.xlsx")
 
 #(i)  Use scatterplots and boxplots
 

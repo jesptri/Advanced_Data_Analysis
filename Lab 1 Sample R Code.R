@@ -1,6 +1,6 @@
 library(readxl)
 
-cereal <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced data analysis/data/cereal.xlsx")
+cereal <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/cereal.xlsx")
 
 summary(cereal)  #carbo, sugars, potass all have -1 values instead of NA
 

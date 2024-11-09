@@ -1,6 +1,6 @@
 library(readxl)
 
-Forbes <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced data analysis/Forbes.xlsx")
+Forbes <- read_excel("c:/Users/jules/Desktop/Limerick/Advanced_data_analysis/data/Forbes.xlsx")
 
 # A. Forbes 
 
