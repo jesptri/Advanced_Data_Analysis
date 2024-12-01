@@ -5,6 +5,7 @@ print(data)
 
 ### 1 ###
 
+
 model <- glm(Attrition ~ Age + BusinessTravel + Department + DistanceFromHome +
                Gender + HourlyRate + JobSatisfaction,
              data = data, family = binomial)

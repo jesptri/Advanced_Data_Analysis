@@ -118,4 +118,4 @@ plot(model_6)
 # Cook's D #
 
 influential_points <- cooks.distance(model_6)
-which(influential_points > 1) # vu que c'est un gros dataset, je peux remplacer 4/n par 1 pour le critère de Cook's D
+which(influential_points > 1)
